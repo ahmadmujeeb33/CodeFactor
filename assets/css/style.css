@@ -1,13 +1,19 @@
+/* I organized the Css file so it has general selectors at the top and more sepcific at the botttom   */
+
+
+
+/* Originally having everything have a padding of zero and margin of zero */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*  initlizing the background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* each elements will have a distance between 20px from them and their border */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +29,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* elements in header will be rightwards of each otther  */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,7 +46,7 @@ header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* no underline on the ancor tags */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +55,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* in the footer don't have elements on the left or right side of each other  */
 footer {
     padding: 30px;
     clear: both;
@@ -60,7 +66,7 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
+/*  determining the size of the background image and it's position and other attributes */
 .hero {
     height: 800px;
     width: 100%;
@@ -84,7 +90,7 @@ footer h2 {
     float: right;
     margin-left: 25px;
 }
-
+/*  elements will be displayed vertically */
 .benefits {
     margin-right: 20px;
     padding: 20px;
